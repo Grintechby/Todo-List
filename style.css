@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    background-color: #b5bebc;
+    color: #464747;
+    margin: auto;
+    border: 2px solid #464747;
+    border-radius: 4px;
+}
+
+.buttn {
+    width: 120px;
+    height: 40px;
+    background-color: aqua;
+    color: #464747;
+    border: 2px solid #464747;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.buttn:hover {
+    background-color: #00ffffb6;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTop {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.inputTodo {
+    width: 500px;
+    text-align: center;
+    border: 2px solid #464747;
+    border-radius: 4px;
+}
+
+.headerBottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.allText {
+    width: 40px;
+}
+
+.completedText {
+    width: 90px;
+}
+
+.inputSearch {
+    width: 480px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #464747;
+    border-radius: 4px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    gap: 10px;
+}
+
+.caseCard {
+    width: 570px;
+    margin: auto;
+    border: 2px solid #464747;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.todoText {
+    background-color: #fff;
+    width: 406px;
+    border-radius: 4px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+.checked {
+    background-color: grey;
+}
+
+.checkbox:checked ~ .todoText {
+    text-decoration: line-through;
+}
+
+.dateDelete {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.deleteCase {
+    border: 2px solid #464747;
+    border-radius: 4px;
+    background-color: aqua;
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    position: relative;
+    left: 50px;
+    transition: .2s;
+}
+
+.deleteCase:hover {
+    background-color: #00ffffb6;
+    font-size: 12px;
+}
+
+.dateText {
+    background-color: #fff;
+    border-radius: 4px;
+    width: 90px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.hide{
+    display: none;
+} 
