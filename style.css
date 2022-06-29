@@ -1,31 +1,32 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
 .container {
     width: 960px;
-    background-color: #b5bebc;
+    background-color: #d9d9d9;
     color: #464747;
-    margin: auto;
-    border: 2px solid #464747;
+    margin: 20px auto;
+    border: 1px solid #464747;
     border-radius: 4px;
 }
 
 .buttn {
     width: 120px;
     height: 40px;
-    background-color: aqua;
-    color: #464747;
-    border: 2px solid #464747;
-    border-radius: 4px;
+    background-color: #00A4E5;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
     font-size: 14px;
     cursor: pointer;
     transition: .2s;
 }
 
 .buttn:hover {
-    background-color: #00ffffb6;
+    background-color: #08b9ff;
 }
 
 .header {
@@ -44,8 +45,9 @@
 .inputTodo {
     width: 500px;
     text-align: center;
-    border: 2px solid #464747;
-    border-radius: 4px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
 }
 
 .headerBottom {
@@ -61,15 +63,16 @@
 }
 
 .completedText {
-    width: 90px;
+    width: 95px;
 }
 
 .inputSearch {
-    width: 480px;
+    width: 475px;
     height: 40px;
     text-align: center;
-    border: 2px solid #464747;
-    border-radius: 4px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
 }
 
 .main {
@@ -82,7 +85,7 @@
 .caseCard {
     width: 570px;
     margin: auto;
-    border: 2px solid #464747;
+    border: 1px solid #464747;
     border-radius: 4px;
     padding: 10px;
     display: flex;
@@ -119,19 +122,20 @@
 }
 
 .deleteCase {
-    border: 2px solid #464747;
+    border: none;
     border-radius: 4px;
-    background-color: aqua;
+    background-color: #00A4E5;
     cursor: pointer;
     width: 40px;
     height: 30px;
     position: relative;
     left: 50px;
+    color: #fff;
     transition: .2s;
 }
 
 .deleteCase:hover {
-    background-color: #00ffffb6;
+    background-color: #08b9ff;
     font-size: 12px;
 }
 
