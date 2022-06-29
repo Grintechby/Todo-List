@@ -1,4 +1,4 @@
-//Верстка
+//Layout
 let container = document.getElementById('root');
 container.classList.add('container');
 
@@ -63,5 +63,5 @@ let main = document.createElement('div');
 container.append(main);
 main.classList.add('main');
 
-export {container, header, headerTop, deleteAll, deleteLast, inputTodo, addButton, 
-    headerBottom, allText, completedText, showAll, showCompleted, inputSearch, main};
+// export {container, header, headerTop, deleteAll, deleteLast, inputTodo, addButton, 
+//     headerBottom, allText, completedText, showAll, showCompleted, inputSearch, main};

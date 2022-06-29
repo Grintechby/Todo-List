@@ -1,5 +1,5 @@
-import {container, header, headerTop, deleteAll, deleteLast, inputTodo, addButton, 
-    headerBottom, allText, completedText, showAll, showCompleted, inputSearch, main} from './layot.js';
+// import {container, header, headerTop, deleteAll, deleteLast, inputTodo, addButton, 
+//     headerBottom, allText, completedText, showAll, showCompleted, inputSearch, main} from './layot.js';
 
 let todos = [];
 let todoList = [];
